@@ -1,2 +1,16 @@
-﻿<h1>Välkommen till Westcoast Education</h1>
+﻿
+@section styles{
+    <link ref="stylesheet" href="~/css/landing-page.css" />
+}
+<div class="landing">
+    <div class="content">
+        <h1>Welcome to Westcoast Education</h1>
+        <h2>Let's learn together!</h2>
+        <p>With high quality learning...<br></p>
+    </div>
+</div>
 <h2>@ViewBag.Message</h2>
+<br>
+
+@Html.ActionLink("See our courses","Index", "Classroom")
+

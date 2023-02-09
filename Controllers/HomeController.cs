@@ -7,7 +7,7 @@ public class HomeController : Controller
     //Action method...
     public IActionResult Index(int id)
     {
-        ViewBag.Message = "Vi har Kurser för att plugga!";
+        ViewBag.Message = "We have courses to study!";
         //Returnerar ett ViewResult...
         return View("Index");
     }
